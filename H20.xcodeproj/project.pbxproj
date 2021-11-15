@@ -7,18 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E90822B72714B72200A49FDF /* CircleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90822B62714B72200A49FDF /* CircleAnimation.swift */; };
+		E910C4962741D6490073F602 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = E910C4952741D6490073F602 /* SwiftUICharts */; };
+		E9B7C51127023F85009D83AD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B7C51027023F85009D83AD /* HomeView.swift */; };
 		E9CAE2EA26B225EC00D39F23 /* H20App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CAE2E926B225EC00D39F23 /* H20App.swift */; };
 		E9CAE2EC26B225EC00D39F23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CAE2EB26B225EC00D39F23 /* ContentView.swift */; };
 		E9CAE2EE26B225ED00D39F23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9CAE2ED26B225ED00D39F23 /* Assets.xcassets */; };
 		E9CAE2F126B225ED00D39F23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9CAE2F026B225ED00D39F23 /* Preview Assets.xcassets */; };
+		E9CAE2F926B22F7900D39F23 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CAE2F826B22F7900D39F23 /* BluetoothManager.swift */; };
+		E9E00738270229BA00F0440C /* ConnectionOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E00737270229BA00F0440C /* ConnectionOnboarding.swift */; };
+		E9E0073C27022B1700F0440C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E0073B27022B1700F0440C /* SettingsView.swift */; };
+		E9E0073F27022BA900F0440C /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E0073E27022BA900F0440C /* Defaults.swift */; };
+		E9E007422702336800F0440C /* SwiftlySearch in Frameworks */ = {isa = PBXBuildFile; productRef = E9E007412702336800F0440C /* SwiftlySearch */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E90822B62714B72200A49FDF /* CircleAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleAnimation.swift; sourceTree = "<group>"; };
+		E9B7C51027023F85009D83AD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		E9CAE2E626B225EC00D39F23 /* H20.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = H20.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9CAE2E926B225EC00D39F23 /* H20App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H20App.swift; sourceTree = "<group>"; };
 		E9CAE2EB26B225EC00D39F23 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E9CAE2ED26B225ED00D39F23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9CAE2F026B225ED00D39F23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9CAE2F726B22D8300D39F23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E9CAE2F826B22F7900D39F23 /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		E9E00737270229BA00F0440C /* ConnectionOnboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionOnboarding.swift; sourceTree = "<group>"; };
+		E9E0073B27022B1700F0440C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		E9E0073E27022BA900F0440C /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +41,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9E007422702336800F0440C /* SwiftlySearch in Frameworks */,
+				E910C4962741D6490073F602 /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E97262232707D7930099F2EA /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				E90822B62714B72200A49FDF /* CircleAnimation.swift */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
 		E9CAE2DD26B225EB00D39F23 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +76,10 @@
 		E9CAE2E826B225EC00D39F23 /* H20 */ = {
 			isa = PBXGroup;
 			children = (
+				E97262232707D7930099F2EA /* Elements */,
+				E9E0073A27022B0600F0440C /* Views */,
+				E9E0073927022A8300F0440C /* Backend */,
+				E9CAE2F726B22D8300D39F23 /* Info.plist */,
 				E9CAE2E926B225EC00D39F23 /* H20App.swift */,
 				E9CAE2EB26B225EC00D39F23 /* ContentView.swift */,
 				E9CAE2ED26B225ED00D39F23 /* Assets.xcassets */,
@@ -65,6 +94,33 @@
 				E9CAE2F026B225ED00D39F23 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E9E0073927022A8300F0440C /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+				E9E0073D27022B9C00F0440C /* Extensions */,
+				E9CAE2F826B22F7900D39F23 /* BluetoothManager.swift */,
+			);
+			path = Backend;
+			sourceTree = "<group>";
+		};
+		E9E0073A27022B0600F0440C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E9E00737270229BA00F0440C /* ConnectionOnboarding.swift */,
+				E9E0073B27022B1700F0440C /* SettingsView.swift */,
+				E9B7C51027023F85009D83AD /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E9E0073D27022B9C00F0440C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E9E0073E27022BA900F0440C /* Defaults.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +139,10 @@
 			dependencies = (
 			);
 			name = H20;
+			packageProductDependencies = (
+				E9E007412702336800F0440C /* SwiftlySearch */,
+				E910C4952741D6490073F602 /* SwiftUICharts */,
+			);
 			productName = H20;
 			productReference = E9CAE2E626B225EC00D39F23 /* H20.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +171,10 @@
 				Base,
 			);
 			mainGroup = E9CAE2DD26B225EB00D39F23;
+			packageReferences = (
+				E9E007402702336800F0440C /* XCRemoteSwiftPackageReference "SwiftlySearch" */,
+				E910C4942741D6490073F602 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = E9CAE2E726B225EC00D39F23 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +201,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9E0073C27022B1700F0440C /* SettingsView.swift in Sources */,
+				E9B7C51127023F85009D83AD /* HomeView.swift in Sources */,
+				E90822B72714B72200A49FDF /* CircleAnimation.swift in Sources */,
+				E9E00738270229BA00F0440C /* ConnectionOnboarding.swift in Sources */,
 				E9CAE2EC26B225EC00D39F23 /* ContentView.swift in Sources */,
+				E9E0073F27022BA900F0440C /* Defaults.swift in Sources */,
+				E9CAE2F926B22F7900D39F23 /* BluetoothManager.swift in Sources */,
 				E9CAE2EA26B225EC00D39F23 /* H20App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,12 +336,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"H20/Preview Content\"";
 				DEVELOPMENT_TEAM = C53YYLJPD6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = H20/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = H20;
+				INFOPLIST_KEY_CFBundleName = H20;
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "H20 will use Bluetooth to connect to your waterbottles";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "H20 will use Bluetooth to connect to your waterbottles";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -287,7 +364,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -296,12 +373,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"H20/Preview Content\"";
 				DEVELOPMENT_TEAM = C53YYLJPD6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = H20/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = H20;
+				INFOPLIST_KEY_CFBundleName = H20;
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "H20 will use Bluetooth to connect to your waterbottles";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "H20 will use Bluetooth to connect to your waterbottles";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -317,7 +401,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -343,6 +427,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E910C4942741D6490073F602 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		E9E007402702336800F0440C /* XCRemoteSwiftPackageReference "SwiftlySearch" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thislooksfun/SwiftlySearch.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E910C4952741D6490073F602 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E910C4942741D6490073F602 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+		E9E007412702336800F0440C /* SwiftlySearch */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E9E007402702336800F0440C /* XCRemoteSwiftPackageReference "SwiftlySearch" */;
+			productName = SwiftlySearch;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E9CAE2DE26B225EB00D39F23 /* Project object */;
 }

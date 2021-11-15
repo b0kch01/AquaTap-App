@@ -12,6 +12,7 @@ struct H20App: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(BLEManager())
         }
     }
 }

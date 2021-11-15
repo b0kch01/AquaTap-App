@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SwiftUICharts",
+        "repositoryURL": "https://github.com/AppPear/ChartView.git",
+        "state": {
+          "branch": null,
+          "revision": "9115a992c91fa19cbb4f2241084240d38654a1fc",
+          "version": "1.5.5"
+        }
+      },
+      {
+        "package": "SwiftlySearch",
+        "repositoryURL": "https://github.com/thislooksfun/SwiftlySearch.git",
+        "state": {
+          "branch": null,
+          "revision": "a7184413250a91f012d5d26eed874b5b2fdaeaac",
+          "version": "1.2.5"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
